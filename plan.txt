@@ -1,0 +1,7 @@
+files:
+basetestcase
+base
+homepage
+productpage
+cartpage
+testcase
