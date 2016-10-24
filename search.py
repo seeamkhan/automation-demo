@@ -37,4 +37,3 @@ class SearchResults(BasePage):
     def get_products(self, number):
         return self.all_product_list[number]
 
-
