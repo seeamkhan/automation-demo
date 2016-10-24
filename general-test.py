@@ -27,11 +27,15 @@ def start():
     except:
         pass
 
-    search_field = "//input[contains (@name, 'field-keywords')]"
-    driver.find_element_by_name('field-keywords').clear()
+
+    # Search functionality
+    # search_field = "//input[contains (@name, 'field-keywords')]"
+    search_field = 'field-keywords'
+    driver.find_element_by_name(search_field).clear()
     driver.find_element_by_name('field-keywords').send_keys('earphone')
-    search_submit_link_element = "//div[contains (@class, 'nav-search-submit')]//input[contains (@type, 'submit')]"
-    driver.find_element_by_xpath(search_submit_link_element).click()
+    driver.find_element_by_name(search_field).submit()
+    # search_submit_link_element = "//div[contains (@class, 'nav-search-submit')]//input[contains (@type, 'submit')]"
+    # driver.find_element_by_xpath(search_submit_link_element).click()
 
     # Search result page testing:
     all_product_list = []
