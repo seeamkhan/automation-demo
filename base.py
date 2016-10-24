@@ -15,7 +15,7 @@ class BasePage(object):
     """Region define functionalities through all page objects"""
     @property
     def cart(self):
-        from cart import CartRegion
+        from cartpage import CartRegion
         return CartRegion(self.driver)
 
 class InvalidPageException(Exception):
