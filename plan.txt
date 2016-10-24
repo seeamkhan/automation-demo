@@ -2,6 +2,7 @@ files:
 basetestcase
 base
 homepage
-productpage
-cartpage
+search
+product
+cart
 testcase

@@ -14,10 +14,10 @@ class BasePage(object):
 
     """Region define functionalities through all page objects"""
     @property
-    def cart(self):
-        from cartpage import CartRegion
-        return CartRegion(self.driver)
+    def search(self):
+        from search import SearchRegion
+        return SearchRegion(self.driver)
 
 class InvalidPageException(Exception):
-    """Throw this exception when you dont find the correct page."""
+    """Throw this exception when you don't find the correct page."""
     pass
