@@ -4,7 +4,7 @@ from selenium import webdriver
 
 class BaseTestCase(unittest.TestCase):
     def setUp(self):
-        #create a new chrome session
+        # create a new chrome session
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
 

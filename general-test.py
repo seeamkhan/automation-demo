@@ -27,7 +27,6 @@ def start():
     except:
         pass
 
-
     # Search functionality
     # search_field = "//input[contains (@name, 'field-keywords')]"
     search_field = 'field-keywords'
@@ -45,7 +44,6 @@ def start():
         all_product_list.append(i.get_attribute("href"))
     # print all_product_list
     driver.get(all_product_list[0])
-
 
     # Product detail page testing:
     buy_box_id = "buybox_feature_div"
