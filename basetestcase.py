@@ -9,7 +9,7 @@ class BaseTestCase(unittest.TestCase):
         self.driver.maximize_window()
 
         # Navigate to homepage
-        base_url = 'http://zafi005.wixsite.com/shop'
+        base_url = 'https://www.amazon.com/'
         self.driver.get(base_url)
 
     def tearDown(self):

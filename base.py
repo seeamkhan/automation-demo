@@ -12,7 +12,7 @@ class BasePage(object):
     def _validate_page(self, driver):
         return
 
-    """Region define functionalities through all page objects"""
+    """Region define functionality through all page objects"""
 
     @property
     def search(self):
