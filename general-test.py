@@ -63,7 +63,7 @@ def start():
     # print prod_title
 
 
-    print "'%s' has been Successfully added in your cart!" % prod_title
+    print "Your product '%s' has been Successfully added in your cart!" % prod_title
 
     time.sleep(3)
 
