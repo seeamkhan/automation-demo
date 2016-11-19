@@ -15,7 +15,7 @@ class SearchProductTest(BaseTestCase):
         number_of_product = search_result.product_count
         # number_of_product = SearchResults(self.driver).product_count
         # number_of_product = searchresults.product_count
-        print "Total number of products in the page: %d" %number_of_product
+        print "Total number of products in the page: %d" % number_of_product
         # self.assertEqual(2, search_result.product_count)
         time.sleep(10)
 
